@@ -1,0 +1,20 @@
+# Supabase lokale Entwicklungsumgebung
+.branches
+.temp
+.env
+supabase/.env
+
+
+
+*.env
+.env.local
+
+cat > .gitignore << EOF
+.DS_Store
+.branches
+.temp
+.env
+supabase/.env
+*.env
+.env.local
+EOF
